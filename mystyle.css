@@ -153,6 +153,8 @@ body {
     margin: 10px;
     height: 300px;  
     display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 50px 100px;
 }
 
 .grid-item {
@@ -161,5 +163,6 @@ body {
     text-align: center;
     width: 70px;
     line-height: 40px;
-    margin: 10px;
+    margin: 10px; 
+    border-radius: 15%;
 }
