@@ -181,10 +181,19 @@ body {
     font-size: 20px;
     color: white;
     background-color: rgb(98, 159, 255);
-    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
 }
 
 .submit-button:hover {
     color: black;
     background: red;
+    transform: scale(1.2);
+}
+
+
+@keyframes red-to-black {
+    from {background-color: red;}
+    to {background-color: black;}
 }
