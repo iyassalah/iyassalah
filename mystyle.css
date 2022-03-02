@@ -194,6 +194,6 @@ body {
 
 
 @keyframes red-to-black {
-    from {background-color: red;}
+    from {background-color: red; transform: translate();}
     to {background-color: black;}
 }
